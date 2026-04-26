@@ -1,12 +1,12 @@
+import RegistrationForm from './components/RegistrationForm'
 import './App.css'
-import { MuiTypography } from './components/MuiTypography'
 
 function App() {
-
   return (
-    <>
-      <MuiTypography />
-    </>
+    // A classe App ajuda a centralizar o conteúdo se estiver configurada no CSS
+    <div className="App">
+      <RegistrationForm />
+    </div>
   )
 }
 
