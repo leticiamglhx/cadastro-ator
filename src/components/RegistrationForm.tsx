@@ -27,7 +27,7 @@ dayjs.locale('pt-br')
 export default function RegistrationForm() {
   const [step, setStep] = React.useState(1)
 
-  // Estados do Passo 1
+  //step 1 Estados
   const [fullName, setFullName] = React.useState('')
   const [birthDate, setBirthDate] = React.useState<dayjs.Dayjs | null>(null)
   const [documentType, setDocumentType] = React.useState<string | null>(null)
@@ -51,7 +51,7 @@ export default function RegistrationForm() {
   const [organizationNameError, setOrganizationNameError] = React.useState(false)
   const [positionError, setPositionError] = React.useState(false)
 
-  // Estados do Passo 2
+  // step 2 Estados
   const [actorType, setActorType] = React.useState<string[]>([])
   const [ecosystemProfile, setEcosystemProfile] = React.useState<string[]>([])
   const [involvementLevel, setInvolvementLevel] = React.useState<string | null>(null)
